@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/css/custom.css">
+    <title>Object Visualization</title>
+</head>
+
+<body class="m-0 p-0 w-100 h-100">
+
+    <div class="container">
+        <div class="header container my-2">
+            <div class="header container text-center">
+                <span class="title text-success display-5 fw-bold text-uppercase">Object Visualization App</span>
+            </div>
+
+            <div class="container text-center">
+                <span class="subheader fs-3" id="info">Take a deep breath, look at this image carefully for 30 seconds, then close your eyes and try to reproduct it as accurately as possible. If some details do not appear clearly, look at the object again. Then close your eyes and try again till the object is reproduced.</span>
+            </div>
+
+            <div class="container text-center">
+                <span class="subheader fs-3" id="paragraph">Close your eyes till you here beep sound.</span>
+            </div>
+
+
+            <div class="main container my-2">
+                <div class="container text-center">
+                    <img src="https://source.unsplash.com/400x400/?thing" id="image" class="rounded mx-auto" alt="loading...">
+                </div>
+            </div>
+            <div class="button container">
+                <div class="container text-center">
+                    <a class="btn btn-outline-success" id="startbtn" onclick="start()">START</a>
+
+                    <audio id="audio" src="../static/mp3/beep.mp3" autoplay="false"></audio>
+                    <a class="btn btn-outline-success" id="restartbtn" onclick="restart()">RESTART</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../static/js/bootstrap.js"></script>
+    <script src="../static/js/custom.js"></script>
+</body>
+
+</html>

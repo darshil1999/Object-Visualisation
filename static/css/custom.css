@@ -1,0 +1,14 @@
+body {
+    /* background-image: url(../img/background-image.jpg);
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden; */
+}
+
+#image {
+    display: block;
+}
+
+#paragraph {
+    display: none;
+}
